@@ -18,4 +18,5 @@ group :test, :development do
 	gem "shoulda-matchers"
 	gem 'factory_girl_rails'
 	gem "ruby-debug19"
+	gem 'database_cleaner'
 end

@@ -1,0 +1,113 @@
+--- 
+RSpec: 
+  :original_result: 
+    /Users/guivinicius/app2/app/models/user.rb: 
+    - 1
+    - 
+    - 
+    - 1
+    - 
+    - 
+    - 
+    - 1
+    - 
+    /Users/guivinicius/app2/app/controllers/application_controller.rb: 
+    - 1
+    - 1
+    - 
+    /Users/guivinicius/app2/app/helpers/application_helper.rb: 
+    - 1
+    - 
+    /Users/guivinicius/app2/app/helpers/emails_helper.rb: 
+    - 1
+    - 
+    /Users/guivinicius/app2/app/controllers/emails_controller.rb: 
+    - 1
+    - 
+    - 1
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 1
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 1
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 5
+    - 
+    - 5
+    - 5
+    - 6
+    - 3
+    - 
+    - 4
+    - 2
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 5
+    - 
+    - 5
+    - 5
+    - 4
+    - 2
+    - 
+    - 6
+    - 3
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 1
+    - 2
+    - 2
+    - 
+    - 2
+    - 4
+    - 2
+    - 
+    - 
+    - 
+    /Users/guivinicius/app2/app/models/email.rb: 
+    - 1
+    - 1
+    - 
+  :created_at: 2011-07-16 15:41:52.202589 -03:00

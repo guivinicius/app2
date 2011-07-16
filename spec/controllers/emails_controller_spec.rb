@@ -1,7 +1,9 @@
 require 'spec_helper'
 
 describe EmailsController do
-
+  
+  login_user
+  
   def valid_attributes
     { :email => 'rubinho@desafiorails.com.br' }
   end

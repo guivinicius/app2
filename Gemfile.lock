@@ -47,6 +47,7 @@ GEM
       ffi (~> 1.0.6)
     columnize (0.3.3)
     culerity (0.2.15)
+    database_cleaner (0.6.6)
     devise (1.4.2)
       bcrypt-ruby (~> 2.1.2)
       orm_adapter (~> 0.0.3)
@@ -155,6 +156,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
+  database_cleaner
   devise
   factory_girl_rails
   jquery-rails

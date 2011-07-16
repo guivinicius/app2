@@ -2,10 +2,13 @@ require 'spec_helper'
 
 describe "Emails" do
   describe "GET /emails" do
-    it "works! (now write some real specs)" do
-      # Run the generator again with the --webrat flag if you want to use webrat methods/matchers
+    it "it should redirect if an authenticated user is not present" do
       get emails_path
-      response.status.should be(200)
+      response.status.should be(302)
+    end
+    
+    it "should get success if user is loged in" do
+      pending
     end
   end
 end
