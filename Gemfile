@@ -8,6 +8,7 @@ gem 'rails', '3.1.0.rc4'
 gem 'sqlite3'
 
 gem 'jquery-rails'
+gem 'devise'
 
 group :test, :development do
 	gem 'turn', :require => false

@@ -1,4 +1,6 @@
 App2::Application.routes.draw do
+  resources :emails
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
