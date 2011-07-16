@@ -1,6 +1,6 @@
 class EmailsController < ApplicationController
   
-  before_filter :authenticate_user!
+  before_filter :authenticate_user!, :except => [:create]
   
   def index
     @emails = Email.all
@@ -41,7 +41,8 @@ class EmailsController < ApplicationController
   # POST /emails
   # POST /emails.json
   def create
-    @email = Email.new(params[:email])
+    
+    @email = Email.new(:email => params[:email])
 
     respond_to do |format|
       if @email.save
